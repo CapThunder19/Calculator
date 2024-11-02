@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #28282B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cal{
+    width: 40vw;
+    height: 70vh;
+    display: grid;
+    row-gap: 4px;
+    column-gap: 4px;
+    background-color: #28282B;
+    margin-top: 20px;
+
+}
+#display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: x-large;
+
+}
+#but{
+    font-size: x-large;
+    background-color: orangered;
+
+}
